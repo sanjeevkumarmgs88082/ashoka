@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Practice2(Form)</title>
+	</head>
+<body>
+	<form>
+		<b>Name :- </b><input type="text" required placeholder="Enter Your Name"><br/>
+		<b>DOB :- </b><input type="Date" required><br/>
+		<b>Gender:- </b>male<input type="radio" name="gender"/>Female<input type="radio" name="gender"/><br/>
+		
+		<b>Skills :</b> Cricket<input type="checkbox"/> Singing<input type="checkbox"/><br/>
+		
+		Email: <input type="email"><br/>
+		password <span style="color:red;">*</span> : <input type="password" ><br/>
+		
+		Feedback: <textarea cols="10" rows="2">
+		
+					</textarea><br/>
+		Select Course: <select onsubmit="check();">
+							<option id="select">Select Any</option>
+							<option value="ai">AI</option>
+							<option Value="ml">Machine Learning</option>
+							<option>Block Chain</option>
+						</select>
+						
+		<input type="submit"/><input type="reset"/>
+
+	</form>
+</body>
+</html>
